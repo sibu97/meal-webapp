@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon-meal.jpg" />
+    
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/0a9b7b3b75.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap CSS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/favourites.css">
+
+    <title>Favourites</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header-container">
+      <!-- Navbar Section -->
+      <navbar class="nav-container">
+        <img id="meal-logo" src="https://meal-icedq5izn-kartiksarwan2017.vercel.app/assets/meal-logo.webp" alt="meal-logo" />
+        <h1 id="heading">Kitchen's Meal</h1>
+      </navbar>
+
+      <!-- Navbar Links -->
+      <div class="nav-links">
+        <li>
+          <a href="/index.html">Home</a>
+        </li>
+        <li>
+          <a href="/">Favourite Meals</a>
+        </li>
+        <li>
+          <a href="/about.html">About</a>
+          </li>
+      </div>
+    </header>
+    <main>
+      <!-- Favourite Meals Section -->
+        <div class="fav-meals-container">
+          <h2>Favourite Meals</h2>
+          <div class="fav-meals">
+          </div>
+        </div>
+      </div>
+
+      <!-- Display the Details of the Meals -->
+      <div class="pop-up-container">
+        <div class="pop-up">
+          <i class="fa-solid fa-x"></i>
+          <div class="pop-up-inner"></div>
+        </div>
+    
+    </main>
+    <footer></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="src/pages/favourites.js"></script>
+  </body>
+</html>

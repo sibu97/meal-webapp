@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Meal App</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="icon" type="image/gif" href="./src/accets/soup.gif">
+ 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Font Awesome ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Bootstrap CSS -->
+
+
+
+
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+crossorigin="anonymous" />
+
+ <!-- External CSS -->
+ <link rel="stylesheet" href="./src/styles/styles.css" />
+ <link rel="stylesheet" href="./src/styles/index.css" />
+
+</head>
+
+<body>
+	
+		 <!-- Header Section -->
+		 <header class="header-container">
+				<!-- Navbar Section -->
+				<navbar class="nav-container">
+					<img id="meal-logo" src="https://meal-icedq5izn-kartiksarwan2017.vercel.app/assets/meal-logo.webp" alt="meal-logo" />
+					<h1 id="heading">Kitchen's Meal	
+					</h1>
+				</navbar>
+	
+				<!-- Navbar Links -->
+				<div class="nav-links">
+					<li>
+						<a href="/">Home</a>
+					</li>
+					<li>
+						<a href="/favourites.html">Favourite Meals</a>
+					</li>
+
+					<li>
+						<a href="/about.html">About</a>
+					  </li>
+				</div>
+			</header>
+			<main>
+					<!-- Search Container for Searching Meals -->
+			  <div class="search-container">
+				 <input class="search-input"
+						type="text"	placeholder="Search Meal"/>			
+						<button class="search-icon" type="submit">	
+						<i style="font-size: 2em;color:rgb(88, 128, 28);" class="fa-sharp fa-solid fa-magnifying-glass icon-3x"></i>
+						</button>
+									
+			    </div>
+
+		<!-- Displays the Meals -->
+					<div class="meals-container">
+						<h2> Search here ...</h2>
+						<div class="meal">
+						
+						
+						</div>
+					</div>
+
+	<!-- Displays the Details of the Meals -->
+					<div class="pop-up-container">
+						<div class="pop-up">
+							<i class="fa-solid fa-x"></i>
+							<div class="pop-up-inner"></div>
+						</div>
+					</div>
+
+				</main>
+
+
+				<script
+				src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+				crossorigin="anonymous"
+			  ></script>
+	<script src="./src/pages/index.js"></script>
+</body>
+
+</html>
